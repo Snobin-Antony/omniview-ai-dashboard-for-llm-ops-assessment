@@ -39,8 +39,21 @@ Thumbs.db
 .cursor/
 
 # Scratch Word exports
+~$*
 _docx_tmp/
 *.docx.bak
 *.patched.docx
 *.updated.docx
 assets/_*.png
+
+# Interview / assessment artifacts (kept locally; not the public GitHub project)
+docs/
+plan.md
+Technical Exercise*
+Technical Exercise_*.docx
+Technical Exercise_*.pdf
+scripts/build_submission_docx.py
+scripts/capture_screenshots.py
+assets/problem1_usage_admin_view.png
+assets/problem2_document_insights.png
+assets/problem3_jobs_worker.png
