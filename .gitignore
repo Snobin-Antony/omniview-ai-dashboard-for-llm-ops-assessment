@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# Env & local runtime
+.env
+data/blobs/*
+!data/blobs/.gitkeep
+
+# Logs / debug sessions
+*.log
+debug-*.log
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+
+# Scratch Word exports
+_docx_tmp/
+*.docx.bak
+*.patched.docx
+*.updated.docx
+assets/_*.png
